@@ -29,138 +29,167 @@ Execute the program using runserver command.
 ## PROGRAM
 slot.html
 ```
-
 <html>
-    <head>
-        <title>Time Table</title>
-        <img src="logo.png" style="display:block ; margin: auto; margin-left:auto; margin-right: auto ; width: 100%; max-width: 580px ; height: auto;"><br><br>
-    </head>
-    <body>
-        
-     <table align="center" border="1" cellspacing="2" cellpading="12" >
-     
-        <tr bgcolor="lightpink" align="center">
-            <td> Day/Time </td>
-            <td> Monday </td>
-            <td> Tuesday </td>
-            <td> Wednesday </td>
-            <td> Thursday </td>
-            <td> Friday </td>
-            <td> Saturday </td>
-        </tr>
+<head>
+    <title>Time Table</title>
+    <img src="logo.png" height="100" width="540">
+    <br><br>
+</head>
 
-        <tr align="center">
-            <td bgcolor="lightgrey"> 08:00-09:30 </td>
-            <td> python</td>
-            <td> Free Slot </td>
-            <td> FWAD </td>
-            <td> python </td>
-            <td> python </td>
-            <td> Calculus </td>
-        </tr>
-        
-        <tr align="center">
-            <td bgcolor="lightgrey"> 09:30-11:15 </td>
-            <td> FWAD </td>
-            <td colspan="2" align="center"> Free Slot </td>
-            <td> German </td>
-            <td> Free slot </td>
-            <td> German</td>
-        </tr>
+<body>
 
-        <tr>
-            <td bgcolor="lightgrey"> 11:30-12:15 </td>
-            <td colspan="6" align="center"> Mentor Meet or Event </td>
-        </tr>
+<table align="center" cellspacing="3" width="85%" cellpadding="10"  border="1" bgcolor="pink">
 
-         <tr>
-            <td bgcolor="lightgrey"> 12:15-01.15 </td>
-            <td colspan="6" align="center"> Lunch Break </td>
-        </tr>
-
-        <tr align="center">
-            <td bgcolor="lightgrey"> 01.15-02.44 </td>
-            <td> Free Slot </td>
-            <td> FWAD </td>
-            <td> Free Slot </td>
-            <td> CDS </td>
-            <td> Free slot </td>
-            <td> Digital </td>
-        </tr>
-
-        <tr align="center">
-            <td bgcolor="lightgrey"> 03:00-04:30 </td>
-            <td> Free Slot </td>
-            <td> EDM </td>
-            <td> Calculus </td>
-            <td> Digital</td>
-            <td> BEEE </td>
-            <td> EDM </td>
-        </tr>
-
-     </table><br><br>
-     <table align="center" border="1" cellspacing="2" cellpading="12">
-      <caption align="center" style="font-family:'Times New Roman', Times, serif; font: size 45px;"><b>SLOT TIME TABLE - Jhanani K[26013893]</b></caption>
-
-     <tr bgcolor="lightpink" align="center">
-        <td> S.No </td>
-        <td> Subject Code </td>
-        <td> Subject Name </td>
-     </tr>
-     <tr align="center">
-        <td> 1. </td>
-        <td bgcolor="lightgrey"> 19AI414 </td>
-        <td> Fundamentals of Web Application Development(FWAD) </td>
-     </tr>
-     <tr align="center">
-        <td> 2. </td>
-        <td bgcolor="lightgrey"> 19AI301 </td>
-        <td> Python Programming(Python) </td>
+    <tr bgcolor="lightblue" align="center">
+        <td>Day/Time</td>
+        <td>Monday</td>
+        <td>Tuesday</td>
+        <td>Wednesday</td>
+        <td>Thursday</td>
+        <td>Friday</td>
+        <td>Saturday</td>
     </tr>
-     <tr align="center">
-        <td> 3. </td>
-        <td bgcolor="lightgrey"> 19AI302 </td>
-        <td> Engineering Design And Modelling(EDM) </td>
-     </tr>
-     <tr align="center">
-        <td> 4. </td>
-        <td bgcolor="lightgrey"> 19MA201 </td>
-        <td> Calculus and Matrix Algebra(calculus)</td>
-     </tr> 
-     <tr align="center">
-        <td> 6. </td>
-        <td bgcolor="lightgrey"> 19EE404 </td>
-        <td> Digital Electronics(Digital)</td>
-     </tr> 
-     <tr align="center">
-        <td> 7. </td>
-        <td bgcolor="lightgrey"> 19GE626 </td>
-        <td> German Language A1 Basic(german)</td>
-     </tr>
-     <tr align="center">
-        <td> 8. </td>
-        <td bgcolor="lightgrey"> 19EY708 </td>
-        <td> Career Development And Skills(CDS) </td>
-     </tr>
-      <tr align="center">
-        <td> 9. </td>
-        <td bgcolor="lightgrey"> 19EE305</td>
-        <td> Basic Electrical,Electronics and Measurement Engineering(BEEE)</td>
-     </tr>
-     </table>
-    </body>
+
+    <tr align="center">
+        <td bgcolor="lightyellow">08:00-09:30</td>
+        <td>Python</td>
+        <td>Free Slot</td>
+        <td>FWAD</td>
+        <td>Python</td>
+        <td>Python</td>
+        <td>Calculus</td>
+    </tr>
+
+    <tr align="center">
+        <td bgcolor="lightyellow">09:30-11:15</td>
+        <td>FWAD</td>
+        <td>Free Slot</td>
+        <td>Free Slot</td>
+        <td>German</td>
+        <td>Free Slot</td>
+        <td>German</td>
+    </tr>
+
+    <tr align="center">
+        <td bgcolor="lightyellow">11:30-12:15</td>
+        <td>Mentor Meet</td>
+        <td>Mentor Meet</td>
+        <td>Mentor Meet</td>
+        <td>Mentor Meet</td>
+        <td>Mentor Meet</td>
+        <td>Event</td>
+    </tr>
+
+    <tr align="center">
+        <td bgcolor="lightyellow">12:15-01:15</td>
+        <td>Lunch Break</td>
+        <td>Lunch Break</td>
+        <td>Lunch Break</td>
+        <td>Lunch Break</td>
+        <td>Lunch Break</td>
+        <td>Lunch Break</td>
+    </tr>
+
+    <tr align="center">
+        <td bgcolor="lightyellow">01:15-02:45</td>
+        <td>Free Slot</td>
+        <td>FWAD</td>
+        <td>Free Slot</td>
+        <td>CDS</td>
+        <td>Free Slot</td>
+        <td>Digital</td>
+    </tr>
+
+    <tr align="center">
+        <td bgcolor="lightyellow">03:00-04:30</td>
+        <td>Free Slot</td>
+        <td>EDM</td>
+        <td>Calculus</td>
+        <td>Digital</td>
+        <td>BEEE</td>
+        <td>EDM</td>
+    </tr>
+
+</table>
+
+<br><br>
+
+<table align="center" border="1" cellspacing="3" cellpadding="10" width="75%">
+
+    <caption style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" >
+        <b>SLOT TIME TABLE - Jhanani K [26013893]</b>
+    </caption>
+
+    <tr bgcolor="lightblue" align="center">
+        <td>S.No</td>
+        <td>Subject Code</td>
+        <td>Subject Name</td>
+    </tr>
+
+    <tr align="center">
+        <td>1.</td>
+        <td bgcolor="lightyellow">19AI414</td>
+        <td>Fundamentals of Web Application Development (FWAD)</td>
+    </tr>
+
+    <tr align="center">
+        <td>2.</td>
+        <td bgcolor="lightyellow">19AI301</td>
+        <td>Python Programming (Python)</td>
+    </tr>
+
+    <tr align="center">
+        <td>3.</td>
+        <td bgcolor="lightyellow">19AI302</td>
+        <td>Engineering Design And Modelling (EDM)</td>
+    </tr>
+
+    <tr align="center">
+        <td>4.</td>
+        <td bgcolor="lightyellow">19MA201</td>
+        <td>Calculus and Matrix Algebra (Calculus)</td>
+    </tr>
+
+    <tr align="center">
+        <td>6.</td>
+        <td bgcolor="lightyellow">19EE404</td>
+        <td>Digital Electronics (Digital)</td>
+    </tr>
+
+    <tr align="center">
+        <td>7.</td>
+        <td bgcolor="lightyellow">19GE626</td>
+        <td>German Language A1 Basic (German)</td>
+    </tr>
+
+    <tr align="center">
+        <td>8.</td>
+        <td bgcolor="lightyellow">19EY708</td>
+        <td>Career Development And Skills (CDS)</td>
+    </tr>
+
+    <tr align="center">
+        <td>9.</td>
+        <td bgcolor="lightyellow">19EE305</td>
+        <td>Basic Electrical, Electronics and Measurement Engineering (BEEE)</td>
+    </tr>
+
+</table>
+
+</body>
 </html>
+
 
 ```
 
 ## OUTPUT
 webpage
-
-![alt text](image.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
 
 server side
 
-![alt text](image-1.png)
+![alt text](image-2.png)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
